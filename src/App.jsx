@@ -13,7 +13,7 @@ function App() {
       <Shop >
         {DUMMY_PRODUCTS.map((product) => (
           <li key={product.id}>
-            <Product {...product}/>
+            <Product {...product} />
           </li>
         ))}
       </Shop>
